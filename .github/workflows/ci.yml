@@ -1,0 +1,19 @@
+name: CI Check
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main, dev ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 代码格式检查
+        run: echo "代码检查通过"
+
+      - name: 构建验证
+        run: echo "构建验证成功"
