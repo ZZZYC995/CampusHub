@@ -10,6 +10,6 @@
 测试负责人：郭德林
 
 ## 技术栈
-前端：HTML/CSS/JavaScript
-后端：Python
+前端：HTML/CSS/JavaScript  
+后端：Python  
 数据库：MySQL
